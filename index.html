@@ -1,0 +1,187 @@
+<!DOCTYPE html>   
+<html lang="cs">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Doučování Jiří Pavlínský</title>
+  <style>
+    :root {
+      --primary: #2c3e50;
+      --secondary: #34495e;
+      --accent: #3498db;
+      --light: #ecf0f1;
+      --dark: #2c3e50;
+      --bold-color: #2ecc71;
+    }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: var(--light);
+      color: var(--dark);
+    }
+    header {
+      background: var(--primary);
+      color: white;
+      padding: 30px 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    header p {
+      font-size: 1.2rem;
+      margin-top: 10px;
+    }
+    nav {
+      background: var(--secondary);
+      text-align: center;
+      padding: 10px;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    nav a:hover {
+      color: var(--accent);
+    }
+    main {
+      max-width: 900px;
+      margin: 30px auto;
+      padding: 0 20px;
+    }
+    h2 {
+      border-bottom: 3px solid var(--accent);
+      padding-bottom: 5px;
+      margin-top: 40px;
+    }
+    section {
+      margin-bottom: 40px;
+    }
+    ul {
+      padding-left: 20px;
+      line-height: 1.6;
+    }
+    footer {
+      background: var(--primary);
+      color: #ccc;
+      text-align: center;
+      padding: 15px;
+      font-size: 0.9rem;
+    }
+    .contact {
+      font-weight: bold;
+      color: var(--bold-color);
+    }
+    strong {
+      color: var(--bold-color);
+    }
+    .note {
+      font-style: italic;
+      color: #666;
+      font-size: 0.9rem;
+    }
+    .register-link {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 10px 15px;
+      background-color: var(--bold-color);
+      color: white;
+      font-weight: 700;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+    }
+    .register-link:hover {
+      background-color: #27ae60;
+    }
+    .warning {
+      color: red;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Doučování Jiří Pavlínský</h1>
+    <p>Hravě, trpělivě a srozumitelně &ndash; pro děti i dospělé</p>
+  </header>
+  <nav>
+    <a href="#nabidka">Nabídka</a>
+    <a href="#cenik">Ceník</a>
+    <a href="#uspechy">Úspěchy</a>
+    <a href="#kontakt">Kontakt</a>
+    <a href="#registrace">Registrace</a>
+    <a href="#recenze">Recenze</a>
+  </nav>
+  <main>
+    <section id="nabidka">
+      <h2>Nabídka doučování</h2>
+      <p><strong>Student osmiletého gymnázia</strong>, dokončené základní vzdělání. Je mi 14 let, v srpnu mi bude 15. Doučuji během letních prázdnin osobně i online.</p>
+      <h3>Pro děti (ZŠ)</h3>
+      <p class="warning">Nejsem chůva. Vyžaduji, aby byl při doučování přítomen dospělý člověk, kterého dítě poslouchá.</p>
+      <p>Všechny předměty kromě cizích jazyků (mimo angličtinu a francouzštinu):</p>
+      <ul>
+        <li>Angličtina do úrovně B2 <span class="note">(běžná úroveň do konce ZŠ je A2/B1 – často je skutečná úroveň vyšší díky všudypřítomnosti angličtiny)</span></li>
+        <li>Francouzština do úrovně A2 <span class="note">(běžná úroveň do konce ZŠ je A1)</span></li>
+        <li>Matematika, fyzika, chemie, čeština, zeměpis, dějepis, biologie, hudební výchova, informatika</li>
+        <li>...a další dle potřeby</li>
+      </ul>
+      <h3>Pro dospělé</h3>
+      <p>Angličtina do B2, francouzština do A2, základy práce s počítačem a AI a další dle domluvy.</p>
+      <p><strong>Taky připravuji na přijímačky na osmiletá a šestiletá gymnázia i na střední školy.</strong></p>
+    </section>
+    <section id="cenik">
+      <h2>Ceník (lekce 45 minut)</h2>
+      <h3>Děti</h3>
+      <ul>
+        <li>Zkušební lekce (45 min): 40 Kč</li>
+        <li>Balíček 5 lekcí: 600 Kč</li>
+        <li>Balíček 10 lekcí: 1 100 Kč</li>
+      </ul>
+      <h3>Dospělí</h3>
+      <ul>
+        <li>Angličtina – zkušební lekce: 40 Kč</li>
+        <li>Angličtina – 5 lekcí: 500 Kč</li>
+        <li>Angličtina – 10 lekcí: 950 Kč</li>
+        <li>Francouzština / PC – zkušební: 50 Kč</li>
+        <li>Francouzština / PC – 5 lekcí: 625 Kč</li>
+        <li>Francouzština / PC – 10 lekcí: 1 200 Kč</li>
+      </ul>
+    </section>
+    <section id="uspechy">
+      <h2>🏆 Mé úspěchy v soutěžích (2024)</h2>
+      <ul>
+        <li>5. místo v krajském kole Biologické olympiády</li>
+        <li>6. místo v krajském kole Zeměpisné olympiády</li>
+        <li>Úspěšné umístění v krajském kole Dějepisné olympiády</li>
+        <li>Úspěšné umístění v okresním kole Chemické olympiády</li>
+        <li>3. místo v okresním kole Přírodovědné soutěže</li>
+      </ul>
+    </section>
+    <section id="kontakt">
+      <h2>Kontakt</h2>
+      <p class="contact">E-mail: <a href="mailto:jiri.pavlinsky@frengp.cz">jiri.pavlinsky@frengp.cz</a></p>
+      <p class="contact">Telefon: <a href="tel:+420721234864">+420 721 234 864</a></p>
+      <p class="contact">Adresa: Tichá 261, 742 74 Tichá (okres Nový Jičín)</p>
+      <p>Ptejte se na cokoli!</p>
+    </section>
+    <section id="registrace">
+      <h2>Registrace na doučování</h2>
+      <p>Chcete začít? Vyplňte krátký registrační formulář a já se vám co nejdříve ozvu.</p>
+      <a class="register-link" href="https://forms.office.com/e/NwyQ8Feukt" target="_blank" rel="noopener noreferrer">Přejít na registraci</a>
+    </section>
+    <section id="recenze">
+      <h2>Recenze</h2>
+      <p>Můžete zanechat svou recenzi v tomto formuláři:</p>
+      <a class="register-link" href="https://forms.office.com/e/ieumkAqh2f" target="_blank" rel="noopener noreferrer">Zanechat recenzi</a>
+    </section>
+  </main>
+  <footer>
+    &copy; 2025 Jiří Pavlínský &ndash; Doučování
+  </footer>
+</body>
+</html>
